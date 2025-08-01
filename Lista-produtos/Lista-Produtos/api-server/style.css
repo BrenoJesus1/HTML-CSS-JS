@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#lista-produtos {
+    margin-bottom: 20px;
+}
+
+#lista-produtos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-produtos li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#lista-produtos li span.nome {
+    font-weight: bold;
+}
+
+#lista-produtos li span.preco {
+    float: right;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px; 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 5px;
+}

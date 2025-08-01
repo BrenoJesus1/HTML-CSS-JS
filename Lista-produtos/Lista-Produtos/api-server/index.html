@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+    <div id="lista-produtos">
+        
+    </div>
+    <button id="btn-novo-produto">Novo Produto</button>
+    <div id="modal-novo-produto" class="modal">
+        <h2>Novo Produto</h2>
+        <form id="form-novo-produto">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="preco">Preço:</label>
+            <input type="number" id="preco" name="preco" required>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+    <div id="modal-editar-produto" class="modal">
+        <h2>Editar Produto</h2>
+        <form id="form-editar-produto">
+            <input type="hidden" id="produto-id" name="produto_id">
+            <label for="nome-editar">Nome:</label>
+            <input type="text" id="nome-editar" name="nome" required>
+            <label for="preco-editar">Preço:</label>
+            <input type="number" id="preco-editar" name="preco" required>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+[
+	{
+		"id": 1,
+		"name": "Joana Trombeta",
+		"email": "joanaTrombeta@gmail.com",
+		"imgUrl": "joana",
+		"bloodType": "A+",
+		"imgUrlPerfil": "joanaUser",
+		"location": "Contagem/Belo Horizonte",
+		"cellphone": "993135896",
+		"persona": "Na semana passada, decidi fazer algo diferente e fui ao banco de sangue para doar pela primeira vez. Confesso que estava um pouco nervoso, mas a equipe foi super atenciosa e me deixou muito à vontade. Durante o processo, uma enfermeira me contou que minha doação poderia salvar até três vidas. Fiquei emocionado ao pensar que um simples ato de 30 minutos poderia ter um impacto tão grande."
+	},
+	{
+		"id": 1,
+		"name": "Maria Eduarda",
+		"email": "ivan@gmail.com",
+		"imgUrl": "maria",
+		"imgUrlPerfil": "mariaPerfil",
+		"bloodType": "A+",
+		"location": "Contagem/Belo Horizonte",
+		"cellphone": "993135896",
+		"persona": "Na última quinta-feira, fui ao centro de doação de sangue com alguns colegas de trabalho. Era uma campanha organizada pelas forças de segurança para incentivar a doação. Foi um dia especial porque estávamos todos juntos, unidos por uma causa nobre. A equipe do banco de sangue nos recebeu de braços abertos, e todo o processo foi muito organizado e acolhedor."
+	},
+	{
+		"id": 1,
+		"name": "Carlos Alberto",
+		"email": "carlosAlberto@gmail.com",
+		"imgUrl": "carlos",
+		"imgUrlPerfil": "carlosPerfil",
+		"bloodType": "A+",
+		"location": "Contagem/Belo Horizonte",
+		"cellphone": "993135896",
+		"persona": "Sempre tive medo de agulhas, mas, recentemente, um amigo me convenceu a ir com ele doar sangue. Decidi enfrentar meu medo, pensando em quantas pessoas dependem dessas doações para sobreviver. No dia da doação, estava um pouco ansioso, mas o processo foi muito mais tranquilo do que imaginei."
+	}
+]

@@ -1,0 +1,253 @@
+
+*{
+    margin:0;
+    padding:0;  
+                   
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+ul li {
+    display: inline-block;
+}
+
+.container{
+    width: 780px;
+    margin:0 auto;
+}
+
+#cabecalho .container{
+    background: url(imagens/detalhe-topo.png) no-repeat top right;
+    padding-bottom: 110px;
+}
+
+#cabecalho {
+    height: 230px;            
+    background: #284c70 url(imagens/fundo.png) top left;          
+}
+
+#cabecalho #logo {
+    height: 66px;
+    width: 152px;    
+    background: #284c70 url(imagens/logo.png) no-repeat center;
+    padding:5px 8px;
+    
+}
+
+#links-cabecalho {
+    width: 100%;
+    margin-top: 1.5%;      
+}
+
+#links-cabecalho img{
+    margin:-6px;
+
+}
+
+#links-cabecalho a:link, #links-cabecalho a:visited {
+	color: white;
+	padding: 12px 20px;
+    background: #de003e;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#links-cabecalho a:hover {
+	color: #69001d;
+}
+
+#selecionado a:link,
+#selecionado a:visited {
+    background: #b10333;
+}
+
+#conteudo a{
+    color:#69001d; 
+}
+
+#conteudo-lateral{    
+    width: 175px;
+    height: 620px;
+    float: left;
+}
+
+#entrevistas{
+    background: url(imagens/fundo-caixa.png);
+    width: 175px;
+    height: 337px;    
+    list-style-type:none;
+    padding-top: 4px;
+}
+
+#entrevistas ul{
+    background-color:#284c70;
+    color: white;
+    padding: 4px;
+    margin: 4px;
+}
+
+#entrevistas li{
+    padding: 0px;    
+    margin-left: 5px;
+    margin-right: 5px;    
+}
+
+#entrevistas a:link, #entrevistas a:visited{
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    color: black;  
+    font-size: 0.9em;
+	padding: 3px;
+	line-height: 30px;		
+	border-bottom: 1px solid #f3f3f3;               
+}
+
+#entrevistas a:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+#newsletter{
+    background: url(imagens/fundo-caixa.png);
+    border: 0.1px solid white;
+    margin-top: 10px;
+    height: 21%;     
+}
+
+#newsletter h2{
+    background-color: #284c70;
+    color: white;
+    padding: 4px;
+    margin: 7px 4px;
+    font-size: 1em;    
+}
+
+#newsletter form{
+    background: white;    
+}
+
+label {
+	display: block; 
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+form {
+    margin: 10px 4px;
+}
+
+
+.conteudos-destaques{
+    background: url(imagens/fundo-caixa.png);    
+    width: 275px;
+    height: 300px;
+    margin: auto 10px 10px 10px;
+    float: left;
+}
+
+.conteudos-destaques img{
+    width: 50px;
+    height: 50px;    
+}
+
+.conteudos-destaques h2{
+    background-color: #284c70;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.fundo-branco{
+    background-color: white;
+    width: 256px;    
+    margin: 10px;  
+} 
+
+
+.conteudos-destaques h3{
+    background-color: #b10333;    
+    color: white;
+	font-size: 0.8em;
+	padding: 3px;
+    display: inline;
+    margin: auto 3px;
+}
+
+.conteudos-destaques img{
+    width: 95%;
+    height: 64%;
+    border: 3px solid gray;
+    margin-left: 3px;
+}
+
+#conteudo-2{
+    float: left;
+}
+
+
+#lista-conteudo{  
+    background: url(imagens/fundo-caixa.png);      
+    width: 275px;    
+    margin: auto 10px 10px 10px;
+    float: left;
+}
+
+#lista-conteudo h2{
+    background-color: #284c70;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+#lista-conteudo img{
+    float:left;
+    margin:1px;
+}
+
+#lista-conteudo h3{
+    color: #27629c;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+#lista-conteudo p{
+    font-size: 0.7em;
+    color: black;
+    margin-bottom: 9px;
+    margin-top: 3px;    
+}
+
+#lista-conteudo a:link, #lista-conteudo a:visited{
+    text-decoration: none;
+}
+
+#rodape {
+    background: #284c70;
+    clear:both;    
+    padding: 35px;
+    color: white;
+}
+
+
+
+
+
+
+

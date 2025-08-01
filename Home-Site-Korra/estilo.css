@@ -1,0 +1,245 @@
+.bg-custom { 
+    background: rgb(33,48,65);    
+}
+
+.btn-custom {
+    background: rgb(212,220,240);
+    background: linear-gradient(90deg, rgba(212,220,240,1) 40%, rgba(189,212,240,1) 100%);  
+    border-radius: 12px;
+    font-size: 13px;
+    padding: 13px 11px; 
+}
+
+.btn-custom:hover {
+    padding: 15px 13px;
+    transition: all 100ms ease-in-out 0ms;
+}
+
+a.brand-laranja img:hover {
+    content: url('img/nickelodeon-brand.png');
+}
+
+.divisor {
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.background-gif {
+    background-attachment:local;    
+    background-image: url(img/korra-background.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.5);    
+}
+
+.principal h1 {    
+    font-family: Roboto, sans-serif;          
+}
+
+.btn-custom-principal {   
+    width: 280px;
+    border-radius: 0;
+      
+}
+
+.opacidade {
+    background-color: rgba(0,0,0,0.7);
+}
+
+#conteudos {
+    padding-top: 70px;
+    background-color: rgba(129, 189, 238, 0.2);    
+}
+
+#conteudos h2 p {
+    font-family: Roboto, sans-serif
+}
+
+#conteudos h1 {
+    font-family: Teko, sans-serif;    
+    letter-spacing: -2px;
+}
+
+#conteudos p{    
+    font-size: 1.1rem;
+    color: rgb(91, 105, 119);
+    max-width: 40rem;  
+}
+
+#personagens {
+    padding-top: 30px;
+    background-color: rgba(129, 189, 238, 0.2);
+}
+
+#personagens img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    max-width: 40%;     
+    max-height: 300px;
+    min-width: max-content;      
+}
+
+.fundo-personagens {
+    background-image: url(img/fundo-character.png);       
+    text-align: center;  
+    background: rgb(240,240,240);
+    background: linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(6,66,100,1) 100%);
+    box-shadow: rgb(170, 208, 236) 0px 0px 0px 2px inset;
+    overflow: hidden;
+    transition: all 300ms ease-in-out 0s;  
+    position: relative;             
+}
+
+.fundo-personagens:hover {
+    box-shadow: inset 0px 0px 0px 2px rgb(3, 16, 51);        
+}
+
+ .fundo-personagens:hover img {
+    transform: scale(1.1);
+    transition: 300ms ease-in-out 0s;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 23px;
+    row-gap: 23px;
+}
+
+.fundo-personagens h1 {
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(3, 16, 51);
+    color: rgb(231, 237, 241);
+    padding: 10px 5px 10px 20px;
+    margin: 0;
+    text-align: left;    
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-size: xx-large;
+}
+
+.fundo-personagens:hover h1 {
+    opacity: 1;
+}
+
+.biografia h1, h2 {
+    letter-spacing: 1-px;
+    font-family: Roboto, sans-serif;       
+}
+
+.biografia,  .habilidades p {
+    font-weight: 500;     
+}
+
+.background-pag-personagens {
+    background: rgb(6,66,100);
+    background: linear-gradient(180deg, rgba(6,66,100,1) 0%, rgba(240,240,240,1) 100%);
+    color: black;
+}
+
+
+@media (max-width: 1399.98px) { 
+    .container {
+        max-width: 1300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .alinhamento {
+        align-items: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .background-gif {
+        background-size: 100% 100%; 
+    }
+    .principal {
+        max-height: 600px;
+    }
+    .principal img {
+        width: 500px;
+    }
+    .principal h1{
+        font-size: 15px!important;
+    }
+    .btn-custom-principal {
+        padding: 15px 9px !important;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);        
+    }
+    .habilidades {  
+        background: rgb(240,240,240);
+        background: linear-gradient(180deg, rgb(83, 100, 107) 0%, rgba(6,66,100,1) 100%);        
+    }
+    #home-personagens {
+        padding-top: 70px;
+    }    
+ }
+ 
+
+@media (max-width: 767.98px) {
+    .principal img {
+      width: 500px;
+    }
+    .principal h1 {
+        font-size: 1rem;
+    }
+    .btn-custom-principal {
+        padding: 15px 7px !important;
+        width: 220px;
+        font-size: medium!important;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ordem {
+        order: -1;
+    }
+    .biografia h1{
+        justify-content: start!important;        
+    }
+    .biografia h2{
+        justify-content: start!important;
+    }
+    .biografia p{
+        text-align: start!important;
+    }
+    .habilidades {
+        background: rgb(157, 176, 189);
+        margin-top: 0px!important;
+        padding: 0px!important;        
+    }
+    .biografia {
+        background: rgb(157, 176, 189);
+        padding: 0px!important;
+    }
+    .background-pag-personagens {
+        background: rgb(157, 176, 189);
+    }
+    .imagem-personagem {
+        width: 100%!important;
+        height: 70%;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .principal img {
+        width: 350px;
+    }
+    .btn-custom{
+        width: 100px;                
+    }
+    .btn-custom:hover {
+         padding:13px;
+    }     
+  }
+
+
