@@ -1,0 +1,150 @@
+/* Verde: #49a09d e Lilas #5f2c82*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 20px;
+    width: 70vw;
+    height: 535px;
+    overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    background-image: url('imagens/building.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+#formulario h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+#formulario p {
+    margin: 0px 8px 0px 10px;
+}
+
+div.campo {
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo input {
+    background-color: #49cfcd;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 5px;
+    width: 70%;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+.button1 {
+    background-color: #49a09d;
+    border: none;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.button2 {
+    border: 1px solid #49a09d;
+    color: #49a09d;
+}
+
+.button1, .button2 {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    div.campo input {
+        width: 88%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 990px;
+        height: 40vh;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div.campo input {
+        width: 90%;
+    }
+}
+
+
