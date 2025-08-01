@@ -6,6 +6,17 @@ Seja bem-vindo(a) à minha coleção de projetos desenvolvidos ao longo da minha
 
 ## 🧠 Projetos de Estudo e Recriações
 
+### 📚 Curso em Vídeo — HTML5 e CSS3
+Exercícios práticos e desafios para fixar os conceitos fundamentais de:
+- HTML5 semântico
+- CSS3 para estilização de páginas
+- Estruturação de conteúdo
+- Layouts responsivos
+- Hierarquia de títulos
+- Listas, tabelas, formulários e muito mais
+
+---
+
 ### 🌊 Home - Site Avatar: A Lenda de Aang  
 Projeto inspirado em um desafio da comunidade **Codelândia**, mas adaptado com a temática do universo Avatar.  
 Utilizei **Bootstrap** com foco em:
